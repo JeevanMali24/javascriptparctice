@@ -148,7 +148,7 @@ else {
 
 }
 //console.log(BMImark, BMTjohn, markHigherBMI)
-*/
+
 
 //type conversion
 const inputYear = '1991';
@@ -168,3 +168,18 @@ console.log(5 + 6 + 9);                   //it does not worl in + only
 console.log('10' / '2');
 console.log('10' - '5');
 console.log('48' > '23');
+*/
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('jeevan'));
+console.log(Boolean(''));
+console.log(Boolean());
+
+
+const money = 100;
+if (money) {
+    console.log("Dont spend to much");
+}
+else {
+    console.log("get a job");
+}
