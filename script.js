@@ -122,7 +122,7 @@ is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark
 BMI (28.3) is higher than John's (23.9)!"
 Hint: Use an if/else statement 😉
 GOOD LUCK 😀
-*/
+
 
 
 // const massmark = 78;
@@ -148,7 +148,23 @@ else {
 
 }
 //console.log(BMImark, BMTjohn, markHigherBMI)
+*/
 
+//type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
 
+console.log(Number('jonas'));
+console.log(typeof NaN);
 
+console.log(String(23), (23));
 
+//type coercion
+console.log('i am' + 23 + 'years old');
+console.log('i am' + '23' + 'years old');
+console.log('23' + '5' + '5');            //it does not worl in + only
+console.log(5 + 6 + 9);                   //it does not worl in + only
+console.log('10' / '2');
+console.log('10' - '5');
+console.log('48' > '23');
