@@ -1,3 +1,4 @@
+/*
 let js = 'amazing';
 // if (js == 'amazing') alert('javascript is fun!');
 (45 + 50 - 10);
@@ -50,7 +51,7 @@ const BMImark = massmark / massmark ** 2;
 const BMTjohn = massjohn / (hightjohn * hightjohn);
 const markHigherBMI = BMImark < BMTjohn;
 console.log(BMImark, BMTjohn, markHigherBMI)
-*/
+
 
 const massmark = 95;
 const hightmark = 1.88;
@@ -61,3 +62,18 @@ const BMImark = massmark / massmark ** 2;
 const BMTjohn = massjohn / (hightjohn * hightjohn);
 const markHigherBMI = BMImark < BMTjohn;
 console.log(BMImark, BMTjohn, markHigherBMI)
+
+
+
+//string and templet
+const firstname = 'john';
+const birthyear = 1998;
+const job = 'developer';
+const year = 2022;
+
+const jeevan = "I'm" + "" + firstname + "" + (year - birthyear) + "" + "years old" + "" + job;
+console.log(jeevan);
+const jeevannew = `I am  ${firstname} ${(year - birthyear)} years old  ${job}!`;
+console.log(jeevannew);
+*/
+
