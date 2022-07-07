@@ -75,5 +75,52 @@ const jeevan = "I'm" + "" + firstname + "" + (year - birthyear) + "" + "years ol
 console.log(jeevan);
 const jeevannew = `I am  ${firstname} ${(year - birthyear)} years old  ${job}!`;
 console.log(jeevannew);
+
+
+const age = 19;
+const IsOldEnough = age >= 18;
+
+if (IsOldEnough) {
+    console.log('John can drive a car');
+}
+else {
+    console.log('John cxan not drive a car');
+}
+
+
+const age = 16;
+if (age >= 18) {
+    console.log('can drive');
+}
+else {
+    const years = 18 - age;
+    console.log(`can drive after ${years} years`);
+}
 */
+
+const age = 15;
+if (age >= 18) {
+    console.log('can drive a car');
+}
+else {
+    const later = 18 - age;
+    console.log(`can drive car after ${later} years`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
