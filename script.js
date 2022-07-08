@@ -236,7 +236,7 @@ GOOD LUCK 😀
 // }
 
 //BONUS
-
+/*
 const scoreDolphins = (96 + 108 + 89) / 3;
 const scoreKoalas = (88 + 91 + 110) / 3;
 console.log(scoreDolphins, scoreKoalas);
@@ -250,3 +250,25 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
     console.log('No one wins');
 }
+*/
+
+
+const days = prompt('enter days'); //prompt cam direct enter the days
+console.log(days);
+
+const day = 'days';
+
+switch (days) {
+    case 'monday':
+        console.log('hello');
+        break;
+    case 'tuesday':
+        console.log('second day');
+        break;
+    case 'wednesday':
+        console.log('thied day');
+        break;
+    case "thursday":
+        console.log('fourth day');
+        break;
+}   
