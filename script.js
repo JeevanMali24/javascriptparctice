@@ -223,14 +223,30 @@ Test data:
 GOOD LUCK 😀
 */
 
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('WoW, Dolphines are winers......');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('WoW, Koalas are winers......');
+// } else if (scoreDolphins === scoreKoalas) {
+//     console.log('the match id draw');
+// }
+
+//BONUS
+
 const scoreDolphins = (96 + 108 + 89) / 3;
 const scoreKoalas = (88 + 91 + 110) / 3;
 console.log(scoreDolphins, scoreKoalas);
 
-if (scoreDolphins > scoreKoalas) {
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
     console.log('WoW, Dolphines are winers......');
-} else if (scoreKoalas > scoreDolphins) {
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
     console.log('WoW, Koalas are winers......');
 } else if (scoreDolphins === scoreKoalas) {
     console.log('the match id draw');
+} else {
+    console.log('No one wins');
 }
