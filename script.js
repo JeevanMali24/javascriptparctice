@@ -250,7 +250,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
     console.log('No one wins');
 }
-*/
+
 
 
 const days = prompt('enter days'); //prompt cam direct enter the days
@@ -271,4 +271,16 @@ switch (days) {
     case "thursday":
         console.log('fourth day');
         break;
-}   
+}
+*/
+
+//conditional operation
+
+const age = 42;
+age >= 18 ? console.log('i like to drink wine') :
+    console.log('i like to drink water');
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`); 
