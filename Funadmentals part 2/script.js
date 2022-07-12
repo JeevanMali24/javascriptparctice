@@ -64,7 +64,7 @@ const Age2 = function (birthyear) {
 }
 const age2 = Age2(1997);
 console.log(age1, age2);
-*/
+
 
 //arrow functions
 
@@ -80,5 +80,22 @@ const yearr = (bi, fn) => {
     return `${fn} retures in ${re} years`;
 }
 console.log(yearr(1998, "jee"));
+*/
 
+
+//Function Calling Other
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor(apple, orange) {
+    //function fruitProcessor cutFruitPieces(fruit: any): Number
+    const applepieces = cutFruitPieces(apple);
+    const orangepices = cutFruitPieces(orange);
+
+    //function fruitProcessor(apple, orange) {
+    const juice = `juces with ${applepieces} apple and ${orangepices} orange.`;
+    return juice;
+}
+console.log(fruitProcessor(2, 6));
 
