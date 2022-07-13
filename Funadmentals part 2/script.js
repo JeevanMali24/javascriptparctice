@@ -80,7 +80,7 @@ const yearr = (bi, fn) => {
     return `${fn} retures in ${re} years`;
 }
 console.log(yearr(1998, "jee"));
-*/
+
 
 
 //Function Calling Other
@@ -98,4 +98,73 @@ function fruitProcessor(apple, orange) {
     return juice;
 }
 console.log(fruitProcessor(2, 6));
+
+
+
+const calAge = function (birthyear) {
+    return 2037 - birthyear;
+}
+
+const yearsuntilretirement = function (birthyear, firstname) {
+    const age = calAge(birthyear);
+    const retirement = 65 - age;
+
+    if (retirement > 0) {
+        console.log(`${firstname} retires in ${retirement} years`);
+        return retirement;
+    } else {
+        console.log(`${firstname} has already retired`);
+        return -1;
+    }
+}
+console.log(yearsuntilretirement(1991, 'john'));
+console.log(yearsuntilretirement(1970, 'kevin'));
+
+*/
+
+
+// const fruit = function (apple, orange) {
+//     return fruit;
+// }
+// function fruits(apple, orange) {
+//     const juc = console.log(`${apple} apples and ${orange} orange`);
+//     return juc;
+// }
+// console.log(fruits(5, 4));
+
+
+
+
+
+
+function cutfruits(fruit) {
+    return fruit * 4;
+}
+
+const fruites = function (apple, orange) {
+    const applepieces = cutfruits(apple);
+    const orangepieces = cutfruits(orange);
+    console.log(`we have ${applepieces} apples and ${orangepieces} orange`);
+}
+console.log(fruites(5, 6));
+
+
+
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apple, orange) {
+//     //function fruitProcessor cutFruitPieces(fruit: any): Number
+//     const applepieces = cutFruitPieces(apple);
+//     const orangepices = cutFruitPieces(orange);
+
+//     //function fruitProcessor(apple, orange) {
+//     const juice = `juces with ${applepieces} apple and ${orangepices} orange.`;
+//     return juice;
+// }
+// console.log(fruitProcessor(2, 6));
+
+
+
 
