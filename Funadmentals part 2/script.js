@@ -137,16 +137,16 @@ console.log(yearsuntilretirement(1970, 'kevin'));
 
 
 
-function cutfruits(fruit) {
-    return fruit * 4;
-}
+// function cutfruits(fruit) {
+//     return fruit * 4;
+// }
 
-const fruites = function (apple, orange) {
-    const applepieces = cutfruits(apple);
-    const orangepieces = cutfruits(orange);
-    console.log(`we have ${applepieces} apples and ${orangepieces} orange`);
-}
-console.log(fruites(5, 6));
+// const fruites = function (apple, orange) {
+//     const applepieces = cutfruits(apple);
+//     const orangepieces = cutfruits(orange);
+//     console.log(`we have ${applepieces} apples and ${orangepieces} orange`);
+// }
+// console.log(fruites(5, 6));
 
 
 
@@ -165,6 +165,13 @@ console.log(fruites(5, 6));
 // }
 // console.log(fruitProcessor(2, 6));
 
-
-
-
+function cutfruit(fruit) {
+    return 4 * fruit;
+}
+function fruits(apple, orange) {
+    const applepieces = cutfruit(apple);
+    const orangepieces = cutfruit(orange);
+    const juic = (`i have ${applepieces} apple and ${orangepieces} orange.`);
+    return juic;
+}
+console.log(fruits(2, 2));
