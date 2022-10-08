@@ -1,78 +1,277 @@
-// 'use strict';
+//let js = 'amazing';
+/*
+let firstNAme = "jeevan";
+console.log(firstNAme);
 
-// let hasDriversLicense = false;
-// const passTest = true;
-// if (passTest) hasDriversLicense = true;
-// if (hasDriversLicense) console.log('i can drive');
+console.log(typeof firstNAme);
+console.log(typeof js);
 
+let year;
+console.log(year);
 
-
-// const massjohn = 58;
-// const hightjohn = 1.69;
-// const massmark = 92;
-// const hightmark = 1.90;
-
-// const BMIjohn = massjohn / hightjohn ** 2;
-// const BMImark = massmark / hightmark ** 2;
-// //const higeastBMI = BMIjohn > BMImark;
-// console.log(BMIjohn, BMImark);
-
-// if (BMIjohn > BMImark) {
-//     console.log(`John has BMI ${BMIjohn} is higest then marks BmI ${BMImark}`)
-// } else {
-//     console.log(`Mark has BMI ${BMImark}is higest then John BMI ${BMIjohn}`)
-// }
+let yearr = 22;
+console.log(typeof yearr);
+console.log(year);
 
 
 
-//console.log(`john BMI is ${BMIjohn}, and mark BMI is ${BMImark} higest bmi is ${higtsr}`);
+const age = 18
+const IsOldEnough = age >= 18;
 
-
-
-// const inputYear = '1991';
-// console.log(Number(inputYear), inputYear);
-// console.log(Number(inputYear) + 18);
-// console.log(Number('jonas'));
-// console.log(typeof NaN);
-// console.log(String(23), (23));
-
-
-// console.log('i am' + 23 + 'years old');
-// console.log('i am' + '23' + 'years old');
-// console.log('23' + '5' + '5');            //it does not worl in + only
-// console.log(5 + 6 + 9);                   //it does not worl in + only
-// console.log('10' / '2');
-// console.log('10' - '5');
-// console.log('48' > '23');
-// console.log(Boolean(0));
-// console.log(Boolean(undefined));
-// console.log(Boolean('jeevan'));
-// console.log(Boolean(''));
-// console.log(Boolean());
-
-
-// const money = 100;
-// if (money) {
-//     console.log('dont send to much money');
-// } else {
-//     console.log('get a job');
-// }
-
-// const scoreDolpins = (5, 6, 4) / 3;
-// const scoreKoals = (5, 6, 4) / 3;
-// console.log(scoreDolpins, scoreKoals);
-
-// if (scoreDolpins > scoreKoals) {
-//     console.log(`The Dolpins are winer`);
-// } else if (scoreDolpins < scoreKoals) {
-//     console.log(`The Koals are the winer`);
-// } else if (scoreDolpins == scoreKoals) {
-//     console.log(`the maths has been tiy........`)
-// }
-
-const age = 12;
-if (age > 18) {
-    console.log(`drink a wine`);
+if (IsOldEnough) {
+    console.log('can drive a car');
 } else {
-    console.log(`drink milk`);
+    console.log('can drive a bycickle')
+}
+
+
+
+
+const massmark = 95;
+const hightmark = 1.2;
+const massjohn = 85;
+const hightjohn = 1.7;
+
+
+const BMImark = massmark / hightmark ** 2;
+const BMIjohn = massjohn / hightjohn ** 2;
+higestBMI = BMIjohn > BMImark;
+console.log(BMIjohn, BMImark, higestBMI);
+
+if (BMIjohn > BMImark) {
+    console.log('John has higest BMI')
+}
+else {
+    console.log('Mark has higest BMI')
+}
+
+console.log(`Mark's BMI ${BMImark} is higher than John's ${BMIjohn}!`)
+*/
+
+//function
+//it is a pice of code which diclear a valuea geain and again.
+/*
+function logger() {
+    console.log('my name is jeevan ')
+}
+*/
+///calling /runing / invoking
+/*
+logger();
+logger();
+logger();
+
+function fruitprocesser(apples, oranges) {
+    console.log(apples, oranges);
+    const juice = `we have ${apples} apples and ${oranges} oranges`
+    return juice
+}
+
+const fruit = fruitprocesser(5, 0);
+console.log(fruit);
+
+//function decleration
+function Arge1(birthyear) {
+    return 2023 - birthyear
+}
+const age1 = Arge1(1991);
+console.log(age1)
+
+//function explerssion
+
+function Arge2(birthyear) {
+    return 2033 - birthyear;
+}
+const age2 = Arge2(2019);
+console.log(age2);
+
+
+//Arroe function
+
+const Arge3 = birthyear => 2037 - birthyear;
+const age3 = Arge3(1019);
+console.log(age3);
+
+
+
+
+
+const retirment = Yearofretirment => 2032 - Yearofretirment;
+const year = retirment(2022);
+console.log(year);
+
+
+const yerasuntilretirment = (birthyearr, firstname) => {
+    const age = 2037 - birthyearr;
+    const retirment = 65 - age;
+    //return retirment;
+    return `${firstname}retirs ${retirment}in year `
+    const a = { jkf: "dfndkj" };
+}
+console.log(yerasuntilretirment(1998, 'jeevan'));
+
+const yerasuntilretirmentt = birthyearrr => {
+    const agee = 2037 - birthyearrr
+    const retirmentt = 65 - agee
+    return retirmentt;
+}
+console.log(yerasuntilretirmentt(1998))
+
+
+
+const Yearofretir = (birthyear) => {
+    // console.log(birthyear)
+    const age = 2037 - birthyear;
+    const retirme = 65 - age;
+    return retirme;
+}
+console.log(Yearofretir(1999))
+
+*/
+
+
+
+/*
+/////Calling function
+
+function fruitcutter(fruit) {
+    return fruit * 4;
+}
+function fruitprosser(apples, oranges) {
+    console.log(apples, oranges)
+    const applepisses = fruitcutter(apples)
+    const orangepicesses = fruitcutter(oranges)
+
+    const fruit = `We have ${applepisses} apples and ${orangepicesses} oranges`
+    return fruit;
+}
+console.log(fruitprosser(5, 4))
+
+*/
+
+
+//array
+/*
+const friend1 = 'rohan';
+const friend2 = 'rohit';
+const friend3 = 'sham';
+
+const friend = ['rohan', 'rohit', 'sham'];
+console.log(friend)
+
+const year = new Array(1991, 1992, 1993, 1994)
+console.log(year)
+
+console.log(friend[0])
+console.log(friend[2])
+
+
+console.log(friend.length)
+console.log(friend.length - 1)
+
+friend[2] = 'jay'
+console.log(friend)
+*/
+
+
+
+///coding challenge.
+/*
+const calcaverage = (a, b, c) => (a, b, c) / 3;
+
+const scoreDolphine = calcaverage(5, 4, 6);
+const scoreKoalas = calcaverage(4, 8, 8);
+
+const checkWinner = function (avgDolphine, avgKoalas) {
+    if (avgDolphine = 2 * avgKoalas) {
+        console.log("win dolphine");
+
+    }
+    else if (avgKoalas = 2 * avgDolphine) {
+        console.log("win Koalas");
+    }
+    else {
+        console.log("no one win");
+    }
+}
+checkWinner(scoreDolphine, scoreKoalas);
+*/
+
+/*
+const calAge = function (birthyear) {
+    return 2022 - birthyear
+}
+
+const year = [2016, 2015, 2014, 2013];
+//console.log(calAge(year));
+const age = calAge(year[2]);
+const age2 = calAge(year[year.length - 1])
+
+const age1 = calAge(year[1], calAge(year[year.length - 1]));
+
+console.log(age, age1, age2);
+
+
+
+const firstName = 'jeevan';
+const jeevan = [firstName, 'mali', 2022 - 1998, 'student', 'friend'];
+console.log(jeevan)
+
+*/
+/*
+const caltip = bill => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+const bill = [125, 555, 44];
+const tip = [caltip(bill[0]), caltip(bill[1]), caltip(bill[2])]
+
+const totalbill = bill + tip;
+
+console.log(bill, tip);
+console.log(totalbill);
+*/
+
+//dot Notation
+/*
+const jeevan = {
+    firstName: 'Jeevan',
+    lastName: 'mali',
+    age: 2022 - 1998,
+    job: 'student',
+    firends: ['sourabh', 'shubham', 'sagar']
+}
+console.log(jeevan);
+
+console.log(jeevan.firstName);
+console.log(jeevan['firstName']);
+
+const NameKey = 'Name';
+console.log(jeevan['first' + NameKey]);
+console.log(jeevan['last' + NameKey]);
+
+//Bracket Notation
+
+const intrest = prompt('what do you want to know about jeevan ');
+console.log(jeevan[intrest]);
+
+if (jeevan[intrest]) {
+    console.log('what do you want to know about jeevan ')
+} else {
+    console.log('Plese dont enter wrong information')
+}
+console.log(intrest);
+
+console.log(`${jeevan.firstName} has ${jeevan.firends.length} and his best friend is ${jeevan.firends[2]}`);
+
+*/
+
+const john = {
+    FiestName: 'jeevan',
+    lastName: 'mali',
+    age: 1998,
+    job: 'student',
+    friends: []
+    
+    const: function calAge() {
+
+    }
 }

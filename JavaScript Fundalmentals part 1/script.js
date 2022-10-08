@@ -283,7 +283,7 @@ age >= 18 ? console.log('i like to drink wine') :
 const drink = age >= 18 ? 'wine' : 'water';
 console.log(drink);
 
-console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`); 
+console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
 */
 
 /*
@@ -315,6 +315,6 @@ GOOD LUCK 😀
 // const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 2;
 // console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
-const bill = 430;
-const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 2;
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+// const bill = 430;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
