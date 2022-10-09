@@ -129,8 +129,6 @@ console.log(Yearofretir(1999))
 
 */
 
-
-
 /*
 /////Calling function
 
@@ -148,7 +146,6 @@ function fruitprosser(apples, oranges) {
 console.log(fruitprosser(5, 4))
 
 */
-
 
 //array
 /*
@@ -172,8 +169,6 @@ console.log(friend.length - 1)
 friend[2] = 'jay'
 console.log(friend)
 */
-
-
 
 ///coding challenge.
 /*
@@ -263,7 +258,7 @@ console.log(intrest);
 console.log(`${jeevan.firstName} has ${jeevan.firends.length} and his best friend is ${jeevan.firends[2]}`);
 
 */
-
+/*
 const john = {
     FiestName: 'jeevan',
     lastName: 'mali',
@@ -274,4 +269,37 @@ const john = {
     const: function calAge() {
 
     }
+}*/
+/*
+const mark = {
+    fullName: 'Mark Miller',
+    markweght: 78,
+    markhight: 1.69,
+    calaBMI: function () {
+        //   console.log(this)
+        this.bmi = this.markweght / this.markhight ** 2;
+        return this.bmi;
+    }
+};
+
+const john = {
+    fillName: 'John Smith',
+    johnweight: 92,
+    johnhight: 1.95,
+    calaBMI: function () {
+        this.bmi = this.johnweight / this.johnhight ** 2;
+        return this.bmi;
+    }
 }
+console.log(mark.bmi, john.bmi);
+console.log(mark)
+*/
+var a = 1;
+for (var a = 1; a <= 10; a++) {
+  console.log(`hellow${a}`);
+  if (a == 3) {
+    // console.log(`hellow ${a}`)
+    break;
+  }
+}
+//console.log(`hello ${a}`)
