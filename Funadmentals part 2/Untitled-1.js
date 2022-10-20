@@ -294,12 +294,26 @@ const john = {
 console.log(mark.bmi, john.bmi);
 console.log(mark)
 */
-var a = 1;
-for (var a = 1; a <= 10; a++) {
-  console.log(`hellow${a}`);
-  if (a == 3) {
-    // console.log(`hellow ${a}`)
-    break;
-  }
-}
+// var a = 1;
+// for (var a = 1; a <= 10; a++) {
+//   console.log(`hellow${a}`);
+//   if (a == 3) {
+//     // console.log(`hellow ${a}`)
+//     break;
+//   }
+// }
 //console.log(`hello ${a}`)
+/*
+let f = 45;
+console.log(f);
+*/
+
+function age(birthyear) {
+  const age1 = 2022 - birthyear;
+  return age1;
+}
+
+console.log(age(1998));
+
+const age2 = (birthyear) => 2022 - birthyear;
+console.log(age(1997));
